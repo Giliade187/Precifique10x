@@ -1,0 +1,170 @@
+/* Estilos para as novas seções de infoproduto */
+
+/* Seções de fundo preto */
+.elementor-element-problema,
+.elementor-element-solucao,
+.elementor-element-incluido,
+.elementor-element-paraquem,
+.elementor-element-garantia,
+.elementor-element-bonus,
+.elementor-element-faq,
+.elementor-element-criador,
+.elementor-element-ctafinal {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos principais brancos */
+.elementor-element-problema .elementor-heading-title,
+.elementor-element-solucao .elementor-heading-title,
+.elementor-element-incluido .elementor-heading-title,
+.elementor-element-paraquem .elementor-heading-title,
+.elementor-element-garantia .elementor-heading-title,
+.elementor-element-bonus .elementor-heading-title,
+.elementor-element-faq .elementor-heading-title,
+.elementor-element-criador .elementor-heading-title,
+.elementor-element-ctafinal .elementor-heading-title {
+    color: #FFFFFF !important;
+    font-family: "Montserrat", Sans-serif !important;
+}
+
+/* Títulos grandes (h2 principais) */
+.elementor-element-problema .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-solucao .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-incluido .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-paraquem .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-garantia .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-bonus .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-faq .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-criador .elementor-element-6c04d3bb .elementor-heading-title,
+.elementor-element-ctafinal .elementor-element-6c04d3bb .elementor-heading-title {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    line-height: 47px !important;
+    text-align: center !important;
+}
+
+/* Subtítulos */
+.elementor-element-problema .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-solucao .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-garantia .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-bonus .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-faq .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-criador .elementor-element-33d800a1 .elementor-heading-title,
+.elementor-element-ctafinal .elementor-element-33d800a1 .elementor-heading-title {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+    text-align: center !important;
+}
+
+/* Ícones e textos das listas */
+.elementor-element-problema .elementor-icon-list-icon i,
+.elementor-element-solucao .elementor-icon-list-icon i,
+.elementor-element-incluido .elementor-icon-list-icon i,
+.elementor-element-paraquem .elementor-icon-list-icon i {
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+}
+
+.elementor-element-problema .elementor-icon-list-text,
+.elementor-element-solucao .elementor-icon-list-text,
+.elementor-element-incluido .elementor-icon-list-text,
+.elementor-element-paraquem .elementor-icon-list-text {
+    color: #FFFFFF !important;
+    font-family: "Montserrat", Sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+/* Listas centralizadas */
+.elementor-element-problema .elementor-icon-list-items,
+.elementor-element-solucao .elementor-icon-list-items,
+.elementor-element-incluido .elementor-icon-list-items,
+.elementor-element-paraquem .elementor-icon-list-items {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Botões */
+.elementor-element-solucao .elementor-button,
+.elementor-element-ctafinal .elementor-button {
+    background: linear-gradient(180deg, #2EB46F 0%, #0A984F 100%) !important;
+    color: #FFFFFF !important;
+    font-family: "Montserrat", Sans-serif !important;
+    font-size: 19px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    border-radius: 8px !important;
+    padding: 20px 50px !important;
+    border: none !important;
+}
+
+/* FAQ - Perguntas em negrito */
+.elementor-element-faq .elementor-element-33d800a1:nth-of-type(odd) .elementor-heading-title {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+}
+
+/* FAQ - Respostas */
+.elementor-element-faq .elementor-element-33d800a1:nth-of-type(even) .elementor-heading-title {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    opacity: 0.9;
+}
+
+/* Espaçamento entre elementos */
+.elementor-element-problema > .elementor-container,
+.elementor-element-solucao > .elementor-container,
+.elementor-element-incluido > .elementor-container,
+.elementor-element-paraquem > .elementor-container,
+.elementor-element-garantia > .elementor-container,
+.elementor-element-bonus > .elementor-container,
+.elementor-element-faq > .elementor-container,
+.elementor-element-criador > .elementor-container,
+.elementor-element-ctafinal > .elementor-container {
+    max-width: 1200px;
+}
+
+/* Dividers verde */
+.elementor-element-faq .elementor-divider-separator {
+    border-top: 5px solid #2CB56F !important;
+    width: 90px;
+    margin: 15px auto;
+}
+
+/* Mobile responsivo */
+@media(max-width: 767px) {
+    .elementor-element-problema .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-solucao .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-incluido .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-paraquem .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-garantia .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-bonus .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-faq .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-criador .elementor-element-6c04d3bb .elementor-heading-title,
+    .elementor-element-ctafinal .elementor-element-6c04d3bb .elementor-heading-title {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    
+    .elementor-element-problema .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-solucao .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-garantia .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-bonus .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-faq .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-criador .elementor-element-33d800a1 .elementor-heading-title,
+    .elementor-element-ctafinal .elementor-element-33d800a1 .elementor-heading-title {
+        font-size: 15px !important;
+        line-height: 22px !important;
+    }
+    
+    .elementor-element-solucao .elementor-button,
+    .elementor-element-ctafinal .elementor-button {
+        font-size: 14px !important;
+        padding: 20px 15px !important;
+    }
+}
+
