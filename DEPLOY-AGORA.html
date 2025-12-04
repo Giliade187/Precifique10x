@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy Netlify - Planilha Precificação10x</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .steps {
+            text-align: left;
+            margin: 30px 0;
+        }
+        .step {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            border-left: 4px solid #2EB46F;
+        }
+        .step-number {
+            font-weight: bold;
+            color: #2EB46F;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(180deg, #2EB46F 0%, #0A984F 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .zip-info {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deploy na Netlify</h1>
+        <p style="color: #666; margin-bottom: 30px;">Sua landing page está pronta para ir ao ar!</p>
+        
+        <div class="steps">
+            <div class="step">
+                <span class="step-number">1.</span> Clique no botão abaixo para abrir o Netlify Drop
+            </div>
+            <div class="step">
+                <span class="step-number">2.</span> Arraste o arquivo <strong>precificacao10x-landing.zip</strong> para a área
+            </div>
+            <div class="step">
+                <span class="step-number">3.</span> Aguarde alguns segundos - seu site estará online!
+            </div>
+        </div>
+
+        <div class="zip-info">
+            📦 Arquivo ZIP localizado em:<br>
+            <code style="font-size: 12px; word-break: break-all;">/Users/giliadebarth/Downloads/horizon/10x/precificacao10x-landing.zip</code>
+        </div>
+
+        <a href="https://app.netlify.com/drop" target="_blank" class="btn">
+            Abrir Netlify Drop →
+        </a>
+
+        <p style="margin-top: 30px; color: #999; font-size: 14px;">
+            ⚡ O deploy é instantâneo e grátis!
+        </p>
+    </div>
+</body>
+</html>
+
+
+
